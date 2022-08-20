@@ -19,6 +19,7 @@ W = [1.8381    1.5803   12.4483    4.4542    6.5637    5.8225;
 W_min = 1;
 W_max = 30;
 
+
 # objective values for the different designs
 # entry j gives the objective for design j
 P = [29.0148   46.3369  282.1749   78.5183  104.8087  253.5439];
