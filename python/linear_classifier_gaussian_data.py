@@ -9,8 +9,6 @@ from matplotlib import cm
 # and pass in c and d you found as its arguments. 
 # No need to worry about other helper functions.
 
-# Test line 2
-
 def confidence_ellipse(mu,cov, ax, n_std=1.0, facecolor='none', **kwargs):
     pearson = cov[0, 1]/np.sqrt(cov[0, 0] * cov[1, 1])
     # Using a special case to obtain the eigenvalues of this
