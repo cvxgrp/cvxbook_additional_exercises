@@ -7,7 +7,7 @@ from matplotlib import cm
 
 # NOTE: You just need to consider the function plot_helper(c,d,save_file=None) below
 # and pass in c and d you found as its arguments. 
-# No need to worry about other helper functions. 
+# No need to worry about other helper functions.
 
 def confidence_ellipse(mu,cov, ax, n_std=1.0, facecolor='none', **kwargs):
     pearson = cov[0, 1]/np.sqrt(cov[0, 0] * cov[1, 1])
