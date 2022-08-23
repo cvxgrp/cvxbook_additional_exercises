@@ -4,4 +4,4 @@ It is updated after each quarter the course is taught, so the exercise numbers c
 
 Data files in Python, Julia, and Matlab can be found in the respective folders.
 
-If you are an instructor of a course that uses these and want the exercises, please contact the authors, including a link to your course.
+If you are an instructor of a course that uses these exercises and want the solutions, please contact the authors, including a link to your course.
