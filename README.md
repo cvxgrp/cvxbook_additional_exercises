@@ -1,6 +1,6 @@
 # cvx_additional_public
-Additional exercises and data for Stanford EE364a, Convex Optimization.  
-It us updated after each quarter the course is taught, so the exercise numbers can change.
+Additional exercises and data for Stanford EE364a, Convex Optimization https://web.stanford.edu/class/ee364a/.  
+It is updated after each quarter the course is taught, so the exercise numbers can change.
 
 Data files in Python, Julia, and Matlab can be found in the respective folders.
 
