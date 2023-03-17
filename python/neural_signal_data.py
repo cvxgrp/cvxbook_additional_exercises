@@ -106,7 +106,7 @@ a_true = np.zeros(N)
 acts = np.array([200,250,345,460,500, 800, 850, 1100, 1500, 1700], dtype=int)
 np.random.seed(50)
 for i in range(acts.shape[0]):
-    a_true[acts[i]] = max(np.random.normal(1,0.3),1)
+    a_true[acts[i]] = np.maximum(np.random.normal(1,0.3),1)
 # We generate the ground truth signal
 y = np.convolve(s, a_true) + np.random.normal(0,80,M+N-1)
 
