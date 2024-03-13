@@ -82,8 +82,8 @@ pmf4 = np.array([0.00151817, 0.00165627, 0.00179441, 0.0019326 , 0.00207083,
                     0.01661628, 0.01663266, 0.01664323, 0.01664901, 0.01665105,
                     0.01665039, 0.01664804, 0.01664499, 0.01664215, 0.01664042,
                     0.01664061, 0.01664346, 0.01664964, 0.01665976, 0.01667433])
-P = np.stack([pmf1, pmf2, 
-              pmf3, pmf4], axis=0)
+P = np.stack([pmf1, pmf2,
+              pmf3, pmf4], axis=0).T
 
 
 def plot_pmfs():
@@ -100,9 +100,9 @@ def plot_stackplot(detector, title="Detector"):
     Takes in an mxn detector matrix and plots a stackplot of the detector
     """
     plt.figure()
-    plt.stackplot(np.arange(pmf1.size), detector, labels=['distribution_1', 
-                                                          'distribution_2', 
-                                                          'distribution_3', 
+    plt.stackplot(np.arange(pmf1.size), detector, labels=['distribution_1',
+                                                          'distribution_2',
+                                                          'distribution_3',
                                                           'distribution_4'])
     plt.legend()
     plt.title(title)
