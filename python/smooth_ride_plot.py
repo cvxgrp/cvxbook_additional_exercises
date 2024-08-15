@@ -56,5 +56,7 @@ if __name__ == "__main__":
     g = [10,50,100,200,240]# Time green light turns on
     r = [40,80,130,230,270]# Time green light turns off
     l = [300,825,1620,1900,2800]# Positions of the lights (in meters)
+    S_min = 4.0  # Minimum speed (m/s)
+    S_max = 16.0  # Maximum speed (m/s)
     p = np.zeros(T) # Insert the solution of the optimization problem here
     plot_trajectory(p, l, g, r)
